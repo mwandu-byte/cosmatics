@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="sw">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nywele Glamour Salon</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel = "stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Nywele Glamour</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#services">Service</a></li>
+          <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <h1 class="display-4">Karibu Nywele Glamour</h1>
+      <p class="lead">Urembo ni sehemu ya maisha – tunakuletea huduma za kisasa kwa mtazamo wa kipekee</p>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="py-5">
+    <div class="container text-center">
+      <h2>Kuhusu Saloon Yetu</h2>
+      <p class="lead">Tunatoa huduma bora za ususi, urembo wa nywele, manicure, pedicure na bidhaa za urembo kwa wanawake wa kisasa.</p>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-4">Huduma Zetu</h2>
+      <div class="row g-4">
+  
+        <!-- Manicure -->
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <img src="image/manicure1.jpeg" class="card-img-top" alt="Manicure">
+            <div class="card-body">
+              <h5 class="card-title">💅 Manicure</h5>
+              <p class="card-text">Tunatunza kucha zako za mikono kwa usafi, upakaji wa rangi, na shaping ya kitaalamu.</p>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Pedicure -->
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <img src="image/pedicure2.jpeg" class="card-img-top" alt="Pedicure">
+            <div class="card-body">
+              <h5 class="card-title">🦶 Pedicure</h5>
+              <p class="card-text">Huduma bora ya kusafisha na kurembesha miguu yako pamoja na kusugua visigino.</p>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Hair Styling -->
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <img src="image/hair3.jpeg" class="card-img-top" alt="Hair Styling">
+            <div class="card-body">
+              <h5 class="card-title">💇‍♀️ Hair Styling</h5>
+              <p class="card-text">Mitindo ya kisasa ya kusuka, kupaka dawa na kutengeneza nywele kwa urembo wa kisasa.</p>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Facial -->
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <img src="image/facial.jpeg" class="card-img-top" alt="Facial">
+            <div class="card-body">
+              <h5 class="card-title">🧖‍♀️ Facial Treatment</h5>
+              <p class="card-text">Huduma ya kusafisha na kuhuisha ngozi ya uso kwa kutumia mask na scrub.</p>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Makeup -->
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <img src="image/makeup.jpeg" class="card-img-top" alt="Makeup">
+            <div class="card-body">
+              <h5 class="card-title">💄 Makeup</h5>
+              <p class="card-text">Makeup kwa ajili ya matukio ya kipekee kama harusi, sendoff na photoshoot.</p>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Massage -->
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <img src="image/massage1.jpeg" class="card-img-top" alt="Body Massage">
+            <div class="card-body">
+              <h5 class="card-title">💆‍♀️ Body Massage</h5>
+              <p class="card-text">Tunatoa massage ya kitaalamu kwa ajili ya kupumzisha mwili na akili yako.</p>
+            </div>
+          </div>
+        </div>
+  
+      </div>
+    </div>
+  </section>
+  <!-- Gallery Section -->
+<section id="gallery" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-4">Gallery ya Huduma Zetu</h2>
+      <div class="row g-3">
+        
+        <!-- Image 1 -->
+        <div class="col-md-4">
+          <a href="image/hair2.jpeg" data-bs-toggle="modal" data-bs-target="#imgModal1">
+            <img src="image/hair2.jpeg" class="img-fluid rounded shadow" alt="Hair Styling">
+          </a>
+        </div>
+  
+        <!-- Image 2 -->
+        <div class="col-md-4">
+          <a href="image/manicure3.jpeg" data-bs-toggle="modal" data-bs-target="#imgModal2">
+            <img src="image/manicure3.jpeg" class="img-fluid rounded shadow" alt="Manicure">
+          </a>
+        </div>
+  
+        <!-- Image 3 -->
+        <div class="col-md-4">
+          <a href="image/pedicure2.jpeg" data-bs-toggle="modal" data-bs-target="#imgModal3">
+            <img src="image/pedicure2.jpeg" class="img-fluid rounded shadow" alt="Pedicure">
+          </a>
+        </div>
+        <!-- Image 4 -->
+        <div class="col-md-4">
+            <a href="image/massage2.jpeg" data-bs-toggle="modal" data-bs-target="#imgModal3">
+              <img src="image/massage2.jpeg" class="img-fluid rounded shadow" alt="massage">
+            </a>
+          </div>
+          <!-- Image 5 -->
+          <div class="col-md-4">
+            <a href="image/facial.jpeg" data-bs-toggle="modal" data-bs-target="#imgModal3">
+              <img src="image/facial.jpeg" class="img-fluid rounded shadow" alt="facial">
+            </a>    
+      </div>
+        <!-- Image 6 -->
+        <div class="col-md-4">
+            <a href="image/makeup.jpeg" data-bs-toggle="modal" data-bs-target="#imgModal3">
+              <img src="image/makeup.jpeg" class="img-fluid rounded shadow" alt="makeup">
+            </a> 
+        </div>   
+
+    </div>
+  </section>
+  <!-- Contact & Location Section -->
+<section id="contact" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Wasiliana Nasi</h2>
+      <div class="row">
+        
+        <!-- Contact Info -->
+        <div class="col-md-6 mb-4 text-center">
+            <h5 class="mt-4">Tufahamu Zaidi</h5>
+            <p>Huduma zetu ni za kisasa na tunatumia bidhaa bora kwa ajili ya wateja wetu. Tunajitahidi kutoa huduma bora zaidi kwa wateja wetu.</p>
+            <p>Je, unahitaji huduma ya haraka ya saloon au maswali kuhusu huduma zetu? Tuma ujumbe sasa hivi!</p>
+            <h5>Maelezo ya Mawasiliano</h5>
+            <p><strong>📞 WhatsApp:</strong> <a href="https://wa.me/255686695288" target="_blank">+255686695288</a></p>
+            <p><strong>📞 Call:</strong> +255686695288</p>
+            <p><strong>📧 Barua Pepe:</strong> <a href="mailto:mashakamwandu507@email.com">mashakamwandu507@gmail.com</a></p>
+            <p><strong>📍 Location:</strong> Kikuyu, DODOMA</p>
+            <p><strong>🕒 Saa za Kazi:</strong> Jumatatu - Jumamosi, 8:00 AM - 8:00 PM</p>
+        </div>
+
+  
+      <!-- Google Map -->
+      <div class="row mt-4">
+        <div class="col">
+          <h5 class="text-center">Mahali Tulipo</h5>
+          <div class="ratio ratio-16x9">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2345.4405003096763!2d35.718904798437954!3d-6.205391119330432!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x184df1fae2b05c4b%3A0x653b69a337102570!2sKikuyu%20dodoma!5e0!3m2!1sen!2stz!4v1745265337917!5m2!1sen!2stz" 
+            style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          </div>
+        </div>
+      </div>
+  
+    </div>
+  </section>
+  
+  
+  
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white py-3">
+    <div class="container text-center">
+      <p>&copy; 2025 Nywele Glamour. All Rights Reserved.</p>
+      <p>
+        <a href="https://wa.me/255686695288" class="text-white me-3">WhatsApp</a>
+        <a href="https://instagram.com/nywele_glamour" class="text-white">Instagram</a>
+      </p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
